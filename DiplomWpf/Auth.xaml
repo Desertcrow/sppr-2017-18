@@ -1,0 +1,17 @@
+﻿<Window x:Class="DiplomWpf.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiplomWpf"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Вход" Height="140.436" Width="287.21">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="25,34,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="120" x:Name="login"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="172,31,0,0" VerticalAlignment="Top" Width="68" Click="Vhod"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="25,62,0,0" VerticalAlignment="Top" Width="120" x:Name="pass" PasswordChar="*" Password="pootis"/>
+        <TextBlock HorizontalAlignment="Left" Margin="172,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Hyperlink NavigateUri="Registration.xaml" RequestNavigate="Hyperlink_RequestNavigate">Регистрация</Hyperlink></TextBlock>
+
+    </Grid>
+</Window>

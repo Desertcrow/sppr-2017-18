@@ -1,0 +1,19 @@
+﻿<Window x:Class="DiplomWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DiplomWpf"
+        mc:Ignorable="d"
+        Title="Претендент" Height="307.67" Width="461.08"
+        x:Name="main" Loaded="main_Loaded">
+    <Grid>
+        <Button Content="Пройти профильные тесты" HorizontalAlignment="Left" Margin="64,18,0,0" VerticalAlignment="Top" Width="325" Height="54" Click="prof_test_start"/>
+        <Button Content="Пройти организационный тест" HorizontalAlignment="Left" Margin="64,77,0,0" VerticalAlignment="Top" Width="325" Height="54" Click="org_test_start"/>
+        <Button Content="Пройти соционический тест" HorizontalAlignment="Left" Margin="64,136,0,0" VerticalAlignment="Top" Width="325" Height="54" Click="soc_test_start"/>
+        <Button Content="Личные данные" HorizontalAlignment="Left" Margin="28,210,0,0" VerticalAlignment="Top" Width="109" Height="46" Click="pers_data"/>
+        <Button Content="Отчеты" HorizontalAlignment="Left" Margin="160,210,0,0" VerticalAlignment="Top" Width="128" Height="46" Click="reports"/>
+        <Button Content="Письмо рекрутеру" HorizontalAlignment="Left" Margin="304,210,0,0" VerticalAlignment="Top" Width="120" Height="46" Click="mail_to_rec"/>
+
+    </Grid>
+</Window>
